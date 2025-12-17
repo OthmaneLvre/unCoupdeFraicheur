@@ -42,6 +42,85 @@
   </div>
 </header>
 
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-container">
+
+      <div class="hero-text">
+        <h1>Un intérieur propre,<br> sain et rafraîchi</h1>
+        <p>
+          Un service de nettoyage professionnel, soigné et respectueux de votre intérieur.
+        </p>
+        <a href="contact.php" class="btn-primary">Nous contacter</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="../assets/images/hero-nettoyage.jpg" alt="Nettoyage intérieur">
+      </div>
+
+    </div>
+  </section>
+
+    <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <img src="../assets/icons/nettoyage.svg" alt="">
+          <h3>Nettoyage intérieur</h3>
+          <p>Intervention soignée et efficace pour un intérieur propre, sain et agréable au quotidien.</p>
+          <a href="services.php">En savoir plus</a>
+        </article>
+
+        <article class="service-card">
+          <img src="../assets/icons/nettoyage.svg" alt="">
+          <h3>Nettoyage intérieur</h3>
+          <p>Intervention soignée et efficace pour un intérieur propre, sain et agréable au quotidien.</p>
+          <a href="services.php">En savoir plus</a>
+        </article>
+
+        <article class="service-card">
+          <img src="../assets/icons/nettoyage.svg" alt="">
+          <h3>Nettoyage intérieur</h3>
+          <p>Intervention soignée et efficace pour un intérieur propre, sain et agréable au quotidien.</p>
+          <a href="services.php">En savoir plus</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- POURQUOI -->
+  <section class="why">
+    <div class="container">
+      <h2>Pourquoi nous choisir ?</h2>
+
+      <p class="why-text">
+        Nous mettons un point d’honneur à offrir un service de nettoyage soigné,
+        fiable et respectueux. Chaque intervention est réalisée avec attention
+        pour garantir un résultat impeccable et durable.
+      </p>
+    </div>
+  </section>
+
+    <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-container">
+      <h2>Besoin d’un intérieur impeccable ?</h2>
+      <p>Réponse rapide et devis personnalisé</p>
+      <a href="contact.php" class="btn-primary">Demander un devis</a>
+    </div>
+  </section>
+
+</main>
+
+
+
 <footer class="footer">
   <div class="container footer-container">
 
