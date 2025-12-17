@@ -43,4 +43,32 @@
   .services-grid {
     grid-template-columns: 1fr;
   }
+
+  .service-detail {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .service-detail,
+  .service-detail.reverse {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .service-content p {
+    max-width: none;
+  }
+
+  .service-icon {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .service-detail.reverse .service-icon {
+    order: 0;
+  }
+
+  .service-content ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
 }
