@@ -127,7 +127,7 @@
 
 
     <!-- CTA -->
-    <section class="cta">
+    <section class="cta cta-light">
         <div class="container cta-container">
         <h2>Besoin d’un service de nettoyage adapté ?</h2>
         <p>Contactez-nous pour un devis personnalisé</p>

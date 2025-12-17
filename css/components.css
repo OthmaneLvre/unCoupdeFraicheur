@@ -233,6 +233,29 @@
   line-height: 1;
 }
 
+/* CTA variante claire (page Services) */
+.cta-light {
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+}
+
+.cta-light h2 {
+  color: var(--color-primary);
+}
+
+.cta-light p {
+  color: var(--color-text);
+}
+
+.cta-light .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.cta-light .cta-container {
+  padding: var(--spacing-lg) 0;
+}
+
 /* FOOTER */ 
 .footer {
   background-color: var(--color-secondary);
