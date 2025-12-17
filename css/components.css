@@ -256,6 +256,83 @@
   padding: var(--spacing-lg) 0;
 }
 
+/* HERO À PROPOS */
+.about-hero {
+  text-align: center;
+}
+
+.about-hero p {
+  max-width: 600px;
+  margin: var(--spacing-sm) auto 0;
+}
+
+
+/* APPROCHE */
+.about-approach-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.about-text {
+  max-width: 520px;
+  text-align: center;
+}
+
+.about-text h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.about-text p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+}
+
+.about-image img {
+  border-radius: var(--radius);
+}
+
+/* VALEURS */
+.about-values {
+  text-align: center;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.value-card {
+  background-color: var(--color-white);
+  padding: var(--spacing-md);
+  border-radius: var(--radius);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.value-card img {
+  width: 40px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: var(--footer-size);
+  color: var(--color-text);
+  opacity: 0.9;
+}
+
 /* FOOTER */ 
 .footer {
   background-color: var(--color-secondary);
