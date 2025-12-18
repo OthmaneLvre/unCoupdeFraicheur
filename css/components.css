@@ -46,6 +46,7 @@
   padding: 0.6rem 1.4rem;
   border-radius: var(--radius);
   transition: background-color 0.3s ease;
+  border: none;
 }
 
 .btn-primary:hover {
@@ -332,6 +333,90 @@
   color: var(--color-text);
   opacity: 0.9;
 }
+
+/* PAGE CONTACT */
+.contact-content {
+  padding-top: var(--spacing-xl);
+}
+
+.contact-hero {
+  text-align: center;
+}
+
+.contact-hero p {
+  max-width: 600px;
+  margin: var(--spacing-sm) auto 0;
+}
+
+/* GRILLE PRINCIPALE */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+
+/* CARTE FORMULAIRE */
+
+.contact-card {
+  background-color: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius);
+}
+
+/* CHAMPS */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-sm);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.6rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-primary);
+  font-family: inherit;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-sm);
+}
+
+.form-note {
+  text-align: center;
+}
+/* BLOCS INFOS */
+
+.contact-infos {
+  margin-top: 20px;
+}
+
+.contact-infos ul {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--spacing-sm);
+}
+
+.contact-infos li {
+  margin-bottom: 0.5rem;
+}
+
+/* TEXTE REASSURANCE */
+.contact-reassurance {
+  text-align: center;
+}
+
+.contact-reassurance p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: var(--footer-size);
+}
+
 
 /* FOOTER */ 
 .footer {
