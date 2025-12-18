@@ -163,6 +163,6 @@
   </div>
 </footer>
 
-<script src="/js/menu.js"></script>
+<script type="module" src="../js/main.js"></script>
 </body>
 </html>
